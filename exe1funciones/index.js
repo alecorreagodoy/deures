@@ -8,8 +8,9 @@ function dividir(numero,div){
     return resultado;
 }
 
-newResult = dividir(1000,100);
+newResult = dividir(10000,100);
 document.write(newResult);
+
 
 
 

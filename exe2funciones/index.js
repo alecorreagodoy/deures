@@ -1,7 +1,7 @@
 
 ////////////Ex 2/////////////
 
-
+let arrayString = ["Hola","como", 'coche',"estas?"];
 
 function arrayS(arrayString,palabra){
     let posicion = -1;
@@ -16,7 +16,7 @@ function arrayS(arrayString,palabra){
     }
     return posicion;
 }
-let arrayString = ["Hola","como", 'coche',"estas?"];
+
 let posicion =  arrayS(arrayString,"estas?")
 
 document.write(posicion);
