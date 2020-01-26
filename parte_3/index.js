@@ -54,3 +54,41 @@ let generoUsuario = prompt("Introduce tu genero:");
 
 tusuperHeroe(generoUsuario);
 
+/////EXE 1/////
+//Tu tarea va a consistir en crear una función que genere números al azar entre 1 y 10.
+let numeros = [1,2,3,4,5,6,7,8,9,10];
+
+function escoger1azar(numb){
+    let tunumero = numeros[Math.floor(Math.random() * numeros.length)];
+    return tunumero;
+}
+document.write(escoger1azar());
+
+////////////2//////////
+
+Ahora que has aprendido a crear números random entre 1 y 10 usando el
+Math.random(), vas a hacer una función que genere números random entre 1 y X,
+donde X será un argumento de tu función.
+
+
+let uno = 1;
+
+let x = [];
+
+function buscarValorX(x){
+   
+
+    for(i=0; i <= x.length; i++){
+        let 
+        
+
+        /*if ( x > 1){
+            let Xs = x > 1;*/
+           
+        }
+
+    }
+
+}
+
+buscarValorX(Xs)return x[Math.floor(Math.rannom()*x)]
